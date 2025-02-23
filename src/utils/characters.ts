@@ -1,9 +1,9 @@
-import Freya from './../assets/images/cards/freya.jpg'
-import Kratos from './../assets/images/cards/kratos.jpg'
-import Mimir from './../assets/images/cards/mimir.jpg'
-import Thor from './../assets/images/cards/thor.jpg'
-import Tyr from './../assets/images/cards/tyr.jpg'
-import Atreus from './../assets/images/cards/atreus.jpg'
+import Freya from '@/assets/images/cards/freya.jpg'
+import Kratos from '@/assets/images/cards/kratos.jpg'
+import Mimir from '@/assets/images/cards/mimir.jpg'
+import Thor from '@/assets/images/cards/thor.jpg'
+import Tyr from '@/assets/images/cards/tyr.jpg'
+import Atreus from '@/assets/images/cards/atreus.jpg'
 
 export const characters = [
   {

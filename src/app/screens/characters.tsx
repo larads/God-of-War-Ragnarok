@@ -18,7 +18,7 @@ export function Characters() {
                 <header className="flex justify-between flex-col items-center lg:flex-row">
                     <div className="max-w-[61.2rem] text-center lg:text-left mb-16 lg:mb-0">
                         <Heading title="Conheça os personagens" />
-                        <h2 className="mt-7 mb-6 text-4xl font-bold">Toda grande aventura é uma história esperando para ser contada</h2>
+                        <h2>Toda grande aventura é uma história esperando para ser contada</h2>
                         <p className="text-lg text-gray-300">
                             Reviva o começo da jornada nórdica épica de Kratos e Atreus em Mitos de Midgard. Um alerta para quem não está familiarizado com God of War: spoilers à frente.
                         </p>

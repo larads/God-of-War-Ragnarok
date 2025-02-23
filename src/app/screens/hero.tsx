@@ -14,8 +14,8 @@ const Hero = () => {
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     <div className="max-w-3xl text-center md:text-left">
                         <Heading title="Lançamento dia 09/11/2022" />
-                        <h1 className="mt-6 mb-4 text-5xl md:text-7xl font-bold text-white">God of War Ragnarök</h1>
-                        <p className="text-lg md:text-2xl font-medium text-white mb-6">
+                        <h1>God of War Ragnarök</h1>
+                        <p>
                             Os maiores heróis dos nove reinos, lutando por um futuro em que acreditam.
                         </p>
                         <div className="flex flex-col md:flex-row items-center gap-4">

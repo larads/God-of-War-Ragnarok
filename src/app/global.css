@@ -1,1 +1,67 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+html {
+    overflow-x: hidden;
+    font-size: 80.5%;
+}
+
+body, html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000201;
+}
+
+img, svg {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+}
+
+h1 {
+    font-size: 8.4rem;
+    font-weight: 700;
+    line-height: 97.5%;
+    margin-bottom: 1.6rem;
+}
+
+h2 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+p {
+    color: #bdc2cb;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 1.2rem;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+    height: 2rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #000201;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #3265ea;
+    border-radius: 1.4rem;
+}

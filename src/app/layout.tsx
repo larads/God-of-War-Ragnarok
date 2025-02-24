@@ -1,5 +1,6 @@
 import './global.css'
 
+
 import type { Metadata } from "next";
 import { Montserrat, Oxanium } from 'next/font/google'
 

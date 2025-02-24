@@ -4,12 +4,9 @@ import 'swiper/css/free-mode'
 import Image from 'next/image'
 import brand from '@/assets/images/logo.jpg'
 import axel from '@/assets/images/axel.png'
-import { Swiper, SwiperSlide } from 'swiper/react'
 import { Heading } from '@/components/heading'
 import { Wrapper } from './wrapper'
-import { CardCharacter } from '@/components/card-character'
-import { characters } from '@/utils/characters'
-import { FreeMode } from 'swiper/modules'
+import { Slide } from '@/components/slide'
 
 export function Characters() {
     return (
@@ -33,25 +30,7 @@ export function Characters() {
                     </div>
                 </header>
 
-                <Swiper
-                    data-aos="fade-up"
-                    spaceBetween={20}
-                    freeMode={true}
-                    breakpoints={{
-                        320: { slidesPerView: 1.1, spaceBetween: 20 },
-                        768: { slidesPerView: 2.2, spaceBetween: 20 },
-                        991: { slidesPerView: 2.8, spaceBetween: 20 },
-                        1200: { slidesPerView: 3.5, spaceBetween: 20 },
-                    }}
-                    className="s-characters"
-                    modules={[FreeMode]}
-                >
-                    {characters.map((item, index) => (
-                        <SwiperSlide key={index}>
-                            <CardCharacter data={item} />
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
+                <Slide />
             </Wrapper>
         </section>
     )

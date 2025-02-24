@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import bullets from '@/assets/images/svgs/bullets.svg'
+import Image from 'next/image'
 
 interface HeadingProps {
   title: string

@@ -1,11 +1,10 @@
+import { Header } from '@/components/header'
+import Head from 'next/head'
 
-import Head from "next/head";
-import { Header } from "@/components/header";
-
-import { Hero } from "./screens/hero";
-import { Game } from "./screens/game";
-import { Story } from "./screens/story";
-import { Characters } from "./screens/characters";
+import { Characters } from './screens/characters'
+import { Game } from './screens/game'
+import { Hero } from './screens/hero'
+import { Story } from './screens/story'
 
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import brandGOW from '@/assets/images/logo.png';
-import brandSony from '@/assets/images/svgs/sony.svg';
+import brandGOW from '@/assets/images/logo.png'
+import brandSony from '@/assets/images/svgs/sony.svg'
+import Image from 'next/image'
 
 export function Header() {
   return (
@@ -13,11 +13,15 @@ export function Header() {
         <div className="flex items-center gap-4">
           <span className="font-semibold text-base">Disponível para</span>
           <ul className="flex gap-4">
-            <li className="px-3 py-1 border border-white font-semibold text-base">PS1</li>
-            <li className="px-3 py-1 border border-white font-semibold text-base">PS2</li>
+            <li className="px-3 py-1 border border-white font-semibold text-base">
+              PS1
+            </li>
+            <li className="px-3 py-1 border border-white font-semibold text-base">
+              PS2
+            </li>
           </ul>
         </div>
       </div>
     </header>
-  );
+  )
 }

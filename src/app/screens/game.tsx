@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import { gameInfo } from '@/utils';
-import { Wrapper } from './wrapper';
+import { gameInfo } from '@/utils'
+import Image from 'next/image'
+import { Wrapper } from './wrapper'
 
 export function Game() {
   return (
@@ -8,7 +8,10 @@ export function Game() {
       <Wrapper>
         <ul className="flex items-start justify-between flex-nowrap overflow-x-auto gap-4">
           {gameInfo.map((item, index) => (
-            <li key={index} className="flex flex-col items-center justify-center flex-shrink-0">
+            <li
+              key={index}
+              className="flex flex-col items-center justify-center flex-shrink-0"
+            >
               <div className="icon">
                 <Image src={item.icon} alt={item.title} className="w-12 h-12" />
               </div>
@@ -20,5 +23,5 @@ export function Game() {
         </ul>
       </Wrapper>
     </section>
-  );
+  )
 }

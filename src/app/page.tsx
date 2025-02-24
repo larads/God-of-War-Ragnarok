@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <Game />
       <Story />
-      {/* <Characters /> */}
+      <Characters />
     </>
   )
 }
